@@ -20,7 +20,7 @@ public class Queue {
 		
 		this.tail.next = node; 
 		this.tail = node;
-//		this.tail = this.tail.next; // giong hang 22: this.tail = node;
+
 		this.size++;
 	}
 
