@@ -155,7 +155,6 @@ public class App {
     public static Message inputMessage() {
 
         Message mess = new Message();
-
         System.out.println("Enter your name:");
         sc.nextLine();
         
