@@ -64,9 +64,16 @@ public class App {
                                 break;
                             case 2:
                             QuestionQ.dequeue();
+                            System.out.println("Success");
+                            System.out.println("Question queue");
+                            QuestionQ.print();
                                 break;
                             case 3:
                             AnswerQ.dequeue();
+                            System.out.println("Success");
+                            System.out.println("Answer queue");
+                            AnswerQ.print();
+
                                 break;
                             case 4:
                                 continue mainmemu;
@@ -83,7 +90,7 @@ public class App {
                                 break;
 
                         }
-                        break;
+                        
 
                     } while (option != 0);
                     break;
@@ -117,7 +124,7 @@ public class App {
 
     public static void staftmenu() {
         System.out.println("--------------------------");
-        System.out.println("1. Show FAQ");
+        System.out.println("1. Answer FAQ");
         System.out.println("2. Remove Question");
         System.out.println("3. Remove Answer");
         System.out.println("4. Back");
